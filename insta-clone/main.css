@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.instagram{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+
+.left-side{
+    width: 18%;
+    height: 100vh;
+    border-right: 1px solid rgb(223, 218, 218);
+
+}
+
+.left-side .instalogo{
+    width: 120px;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    margin-left: 25px;
+}
+
+.left-side .items{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 17px;
+    margin: 6px;
+}
+
+.left-side .items .material-symbols-outlined{
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.post{
+    width: 60%;
+    height: 100vh;
+
+}
+
+.post .story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    column-gap: 10px;
+}
+
+.post .story .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 200;
+
+}
+
+.post .story .items .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.post .story .items .profile .img{
+    background-image: conic-gradient(rgb(245, 245, 27), rgb(244, 137, 30), rgb(231, 34, 34), rgb(180, 25, 180),rgb(156, 54, 239),rgb(242, 242, 69));
+    border-radius: 50%;
+    padding: 3.5px;
+    display: inline-block;
+
+}
+
+.post .story .items .profile .img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    
+}
+
+.post .story .items .profile p{
+    font-size: 15px;
+}
+
+.post .main-post{
+    height: 75vh;
+    width: 70%;
+    margin: auto;
+}
+
+.post .main-post .profile{
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.post .main-post .profile img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 2.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-image: conic-gradient(rgb(245, 245, 27), rgb(244, 137, 30), rgb(231, 34, 34), rgb(180, 25, 180),rgb(156, 54, 239),rgb(242, 242, 69));
+
+
+}
+
+.post .main-post .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post .main-post .img img{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post .main-post .engagement{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.post .main-post .engagement .material-symbols-outlined{
+    font-size: 1.8rem;
+}
+
+.post .main-post .engagement .left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right-side{
+    width: 27%;
+    height: 100vh;
+}
+
+.right-side .suggestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 14px;
+    padding-bottom: 0px;
+    
+}
+
+.right-side .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-side .suggestion .profile .img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    
+}
+
+.right-side .suggestion .follow{
+    color: blue;
+}
+
+.right-side .suggestion .profile p{
+    color: rgb(107, 105, 105);
+    font-size: 15px;
+}
+.right-side .suggestion .see{
+    color: black;
+}
+
+.m{
+    margin-top: 40px;
+}
